@@ -14,3 +14,12 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# Variables de entorno y credenciales (MongoDB Atlas)
+.env
+*.env
+!.env.example
+
+# Datos generados y resultados de benchmarks
+**/data/
+**/results/
